@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid grey;
+      }
+      #container {
+        width: 200px;
+        height: 100px;
+        background-color: orange;
+        margin-top: 1em;
+        padding-top: 1em;
+      }
+    </style>
+    <script src="https://unpkg.com/htmx.org@1.9.4"></script>
+  </head>
+  <body>
+    <h1>Swapping divs with <a href="https://htmx.org">https://htmx.org</a></h1>
+    <div hx-get="/foo" hx-target="#container">foo</div>
+    <div hx-get="/bar" hx-target="#container">bar</div>
+    <div id="container"></div>
+  </body>
+</html>
