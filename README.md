@@ -5,6 +5,7 @@ you use `browser-sync` you can run the following command and start
 playing with `htmx` by modifying the index files:
 
     git clone https://github.com/tonyaldon/swapping-divs-with-htmx
+    cd swapping-divs-with-htmx
     browser-sync start -s -w --files "*"
 
 If you are an Emacs Lisp programmers you can check `index.el` file
