@@ -8,5 +8,5 @@ playing with `htmx` by modifying the index files:
     cd swapping-divs-with-htmx
     browser-sync start -s -w --files "*"
 
-If you are an Emacs Lisp programmers you can check `index.el` file
+If you are an Emacs Lisp programmer you can check `index.el` file
 which has been used to generate the index files in that repository.
